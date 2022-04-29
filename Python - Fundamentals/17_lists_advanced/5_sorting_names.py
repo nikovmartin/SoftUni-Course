@@ -1,0 +1,5 @@
+names = input().split(", ")
+# sorted_list = sorted(names, key= lambda x: (-len(x), x))
+sorted_list_alphabetical = sorted(names)
+sorted_list = sorted(sorted_list_alphabetical, key= lambda name: -len(name))
+print(sorted_list)
