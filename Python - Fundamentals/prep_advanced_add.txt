@@ -1,1 +1,0 @@
-This is a GIT preparation to starting adding my advanced python files.
